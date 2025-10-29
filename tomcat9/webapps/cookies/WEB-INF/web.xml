@@ -1,21 +1,18 @@
 <web-app>
-    <servlet>
-        <servlet-name>Login</servlet-name>
-        <servlet-class>Login</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>Login</servlet-name>
-        <url-pattern>/Login</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>Welcome</servlet-name>
-        <servlet-class>Welcome</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>Welcome</servlet-name>
-        <url-pattern>/Welcome</url-pattern>
-    </servlet-mapping>
+<servlet>
+<servlet-name>CreateCookie</servlet-name>
+<servlet-class>CreateCookie</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>CreateCookie</servlet-name>
+<url-pattern>/CreateCookie</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>ReadCookie</servlet-name>
+<servlet-class>ReadCookie</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ReadCookie</servlet-name>
+<url-pattern>/ReadCookie</url-pattern>
+</servlet-mapping>
 </web-app>
